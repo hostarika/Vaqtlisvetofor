@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f0f0f0;
+}
+
+.traffic-light {
+    width: 150px;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.light {
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    border-radius: 50%;
+    background-color: gray; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red.active {
+    background-color: red;
+}
+
+.yellow.active {
+    background-color: yellow;
+}
+
+.green.active {
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+  
+
+}
+.white{
+    padding-top: 150px;
+}
+.oq{
+    color: white;
+}
+
+.countdown {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    display: none;
+}
+
+.active .countdown {
+    display: block;
+}
